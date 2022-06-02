@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="board">
+<h3 id="time">SÜRE:</h3> 
+<h3 id="point">PUAN:</h3>
+<button onclick="intervalBaslat();">Baslat</button>
+<button onclick="intervalDurdur();">Durdur</button>
+<button onclick="intervalBitir();">Bitir</button>    
+    <p id="qp1">1</p>
+    <p id="qp2">2</p>
+    <p id="qp3">3</p>
+    <p id="qp4">4</p>
+    <p id="qp5">5</p>
+    <p id="qp6">6</p>
+    <p id="qp7">7</p>
+    <p id="qp8">8</p>
+    <p id="qp9">9</p>
+    <p id="qp10">10</p>
+    
+  </div>
+
+  
+  <div class="main"> 
+    <div class="question">
+      <p>1. ÜÇGENİN İÇ AÇILARI TOPLAMI KAÇ DERECEDİR?</p>
+      <input type="radio" name="q1" value="360 derece" onclick="control(1,'360 derece')"> 360 derece  <br>
+      <input type="radio" name="q1" value="180 derece" onclick="control(1,'180 derece')"> 180 derece     
+      
+      </div>
+  </div>
+
+  
+    <div class="question">
+      <p>2. PAYI PAYDASINDAN KÜÇÜK KESİRLERE NE DENİR?</p>
+      <input type="radio" name="q2" value="bileşik kesir" onclick="control(2,'bileşik kesir')"> bileşik kesir  <br>
+      <input type="radio" name="q2" value="basit kesir"
+onclick="control(2,'basit kesir')"> basit kesir  <br>
+    
+      </div>
+
+  
+    <div class="question">
+      <p>3. AŞAĞIDAKİLERDEN HANGİSİ 32005 SAYISININ DOĞRU OKUNUŞUDUR?</p>
+      <input type="radio" name="q3" value="otuz iki bin beş" onclick="control(3,'otuz iki bin beş')"> otuz iki bin beş  <br>
+      <input type="radio" name="q3" value="üç milyon beş"
+onclick="control(3,'üç milyon beş')"> üç milyon beş  <br>
+    </div>
+
+      
+    <div class="question">
+      <p>4. OKUNUŞU "DÖRT YÜZ ELLİ ALTI BİN DOKUZ YÜZ BEŞ" OLAN SAYI HANGİSİDİR?</p>
+      <input type="radio" name="q4" value="456.905" onclick="control(4,'456.905')"> 456.905  <br>
+      <input type="radio" name="q4" value="456.9005"
+onclick="control(4,'456.9005')"> 456.9005  <br>
+
+    </div>
+  
+   <div class="question">
+      <p>5. 5A54B YANDAKİ SAYI BEŞ BASAMAKLI BİR SAYIDIR. A YERİNE 4 B YERİNE 8 YAZILIRSA OLUŞAN SAYININ OKUNUŞU HANGİSİDİR?</p>
+      <input type="radio" name="q5" value="elli bin beş yüz kırk sekiz" onclick="control(5,'elli bin beş yüz kırk sekiz')"> elli bin beş yüz kırk sekiz   <br>
+      <input type="radio" name="q5" value="elli dört bin beş yüz kırk sekiz"
+onclick="control(5,'elli dört bin beş yüz kırk sekiz')"> elli dört bin beş yüz kırk sekiz  <br> </div>
+
+     
+<div class="question">
+      <p>6. PAYI PAYDASINDAN BÜYÜK VEYA EŞİT OLAN KESİRE NE DENİR?</p>
+      <input type="radio" name="q6" value="bileşik kesir" onclick="control(6,'bileşik kesir')"> bileşik kesir   <br>
+      <input type="radio" name="q6" value="ondalık kesir"
+onclick="control(6,'ondalık kesir')"> ondalık kesir  <br> </div>
+
+
+  <div class="question">
+      <p>7. UZUN KENARI 20 CM KISA KENARI 10 CM OLAN DİKDÖRTGENİN ÇEVRESİ KAÇ CM DİR?</p>
+      <input type="radio" name="q7" value="60" onclick="control(7,'60')"> 60   <br>
+      <input type="radio" name="q7" value="600"
+onclick="control(7,'600')"> 600  <br>
+  </div>
+    
+    <div class="question">
+      <p> 8. UZUN KENARI 50 CM KISA KENARI 20 CM OLAN DİKDÖRTGENİN ALANI KAÇ CM DİR? </p>
+      <input type="radio" name="q8" value= "1200"
+onclick="control(8,'1200')"> 1200  <br>
+      <input type="radio" name="q8" value= "1000"
+onclick="control(8,'1000')"> 1000  <br>    </div>   
+
+      
+<div class="question">
+      <p> 9. 100 SAYISININ 2 KATININ 5 EKSİĞİ KAÇTIR? </p>
+      <input type="radio" name="q9" value= "155"
+onclick="control(9,'155')"> 155 <br>
+      <input type="radio" name="q9" value= "195"
+onclick="control(9,'195')"> 195  <br>    
+</div>
+
+  <div class="question">
+      <p> 10. YARISININ 4 KATININ 3 FAZLASI 203 OLAN SAYI HANGİSİDİR? </p>
+      <input type="radio" name="q10" value= "160"
+onclick="control(10,'160')"> 160 <br>
+      <input type="radio" name="q10" value= "100"
+onclick="control(10,'100')"> 100  <br> </div>  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+body {
+    padding: 25px 400px ;
+    background-color: bisque;
+}
+
+h1{
+     color: rgb(160, 38, 137);
+     border: 2px solid rgb(160, 38, 137);
+ }
+
+
+
+p{
+
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    border: 5px solid #555;
+  }
+
+footer {
+    background-color:DarkSeaGreen;
+    color:white;
+    text-align:center;
+    clear:both;
+    padding:5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
